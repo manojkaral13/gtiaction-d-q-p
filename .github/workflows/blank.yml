@@ -37,7 +37,7 @@ jobs:
           echo test, and deploy your project.
 
 
-JOBS:
+
 
   QA:
     # The type of runner that the job will run on
@@ -52,7 +52,7 @@ JOBS:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: QA Hello, world!
+        run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
@@ -61,7 +61,7 @@ JOBS:
           echo test, and deploy your project.
 
 
-JOBS:
+
 
   PROD:
     # The type of runner that the job will run on
@@ -76,7 +76,7 @@ JOBS:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: PROD Hello, world!
+        run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
